@@ -1,0 +1,29 @@
+.subscribe-section {
+  background-color: #e4ac03;
+  padding: 40px 0;
+}
+
+.subscribe-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subscribe-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subscribe-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
