@@ -31,10 +31,13 @@
   justify-content: center;
   align-items: center;
 }
+.header-burger-icon {
+  fill: #0b0803;
+}
 
 @media (min-width: 768px) {
   .header-nav {
-    justify-content: space-around;
+    padding: 0 32px;
   }
   .header-link-list {
     display: flex;
@@ -55,9 +58,6 @@
 }
 
 @media (min-width: 1440px) {
-  .header-nav {
-    justify-content: space-between;
-  }
   .header-link-list {
     flex-direction: row-reverse;
   }
