@@ -1,0 +1,75 @@
+.location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-up-loc {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+  padding-bottom: 16px;
+}
+
+.title-loc {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+  padding-bottom: 24px;
+}
+
+.text-under-loc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0b0803;
+  padding-bottom: 40px;
+}
+
+.location-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 16px;
+}
+
+.list-address-loc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+}
+
+.address-loc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0b0803;
+}
+
+.address-office {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+}
+
+.get-directions {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+  margin-bottom: 32px;
+}
+
+.location-iframe {
+  border-radius: 40px;
+  width: 288px;
+  height: 307px;
+  display: flex;
+}
