@@ -2,7 +2,7 @@
 
 
 .experience-text-block {
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto;
     text-align: center;
 }
@@ -34,10 +34,15 @@
     min-width: 200px;
 }
 
+.experience-list li:last-of-type .experience-picture img {
+  min-width: 100%;
+}
+
+
 @media screen and (min-width: 768px) {
 
 .experience-text-block {
-    width: 768px;
+    max-width: 768px;
 }
 
 .experience-list {
@@ -56,16 +61,20 @@
 
 }
 
+
 @media screen and (min-width: 1440px) 
 {
  .experience-list {
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 32px;
     height: 948px;
 }
 
 .experience-item {
     width: auto;
 }
+
+.experience-list li:last-of-type {
+  min-width: auto;
+}
+
 }
