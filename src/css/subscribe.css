@@ -23,7 +23,7 @@ gap: 32px;
     font-family: 'Aboreto', sans-serif;
 font-weight: 400;
 font-size: 36px;
-line-height: 120%;
+line-height: 1.12;
 letter-spacing: -0.01em;
 color: #0b0803;
 text-align: left;
@@ -35,7 +35,7 @@ width: 100%;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 font-size: 18px;
-line-height: 150%;
+line-height: 1.15;
 color: #0b0803;
 text-align: left;
 max-width: 288px;
@@ -79,32 +79,37 @@ background-color: rgba(255, 255, 255, 0);
     font-family: 'Quicksand', sans-serif;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.15px;
+line-height: 1.15;
 color: #0b0803;
 }
 
 .subscribe-form-label {
     display: none;
-    color: red;
+    color: #7f1c1c;;
     position: absolute;
     top: 100%;
-    left: 0
+    left: 0;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.15;
 }
 
 
 
 .subscribe-form-input:focus::placeholder {
-    color: red;
+    color: #7f1c1c;;
 }
 
 .subscribe-form-input:focus:placeholder-shown {
-    border-color: red;
+    border-color: #7f1c1c;;
 }
 
 .subscribe-form-input:focus:placeholder-shown + .subscribe-form-label {
     display: block;
-    color: red;
-    border-color: red;
+    color: #7f1c1c;;
+    border-color: #7f1c1c;;
 }
 
 .subscribe-container-form-button {
@@ -119,7 +124,8 @@ color: #0b0803;
 }
 
 .subscribe-form-button {
-border-radius: 100px;
+
+    border-radius: 100px;
 padding: 10px 24px;
 width: 288px;
 height: 44px;
@@ -130,9 +136,14 @@ background-color: #6f4e37;
 font-family: 'Quicksand', sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.15px;
+line-height: 1.15;
 color:  #fff;
 }
+
+
+.subscribe-form-button-svg {
+}
+
 
 .subscribe-form-button:hover {
  background-color: #6f4e37;
