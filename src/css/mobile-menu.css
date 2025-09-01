@@ -6,9 +6,9 @@
   height: 100%;
   background-color: #e0cbb4;
 
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none; */
 }
 .mobile-menu.is-open {
   opacity: 1;
@@ -22,16 +22,8 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.mobile-logo-link {
+.mobile-logo {
   margin-right: auto;
-  width: 84px;
-  height: 36px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .mobile-close-btn {
   display: flex;
@@ -50,4 +42,9 @@
   flex-direction: column;
   align-items: center;
   gap: 32px;
+}
+.mobile-navigation-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
