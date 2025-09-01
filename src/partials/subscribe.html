@@ -38,11 +38,41 @@
             <a class="subscribe-form-link" href="#">Terms and Conditions</a>.
           </p>
         </div>
-
-        <div>
-          <picture> </picture>
-        </div>
       </form>
+
+      <div class="subscribe-container-image">
+        <picture>
+          <source
+            media="(min-width: 1158px)"
+            srcset="
+              ../img/subscribe/subscribe-desc-min.jpg    1x,
+              ../img/subscribe/subscribe-desc@2x-min.jpg 2x
+            "
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ../img/subscribe/subscribe-tab-min.jpg    1x,
+              ../img/subscribe/subscribe-tab@2x-min.jpg 2x
+            "
+          />
+
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ../img/subscribe/subscribe-mob-min.jpg    1x,
+              ../img/subscribe/subscribe-mob@2x-min.jpg 2x
+            "
+          />
+
+          <img
+            class="subscribe-image"
+            src="/img/subscribe/subscribe-mob-min.jpg"
+            alt="subscribe image"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>
