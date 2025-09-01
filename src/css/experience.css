@@ -1,0 +1,71 @@
+/* COFFEE MOMENTS */
+
+
+.experience-text-block {
+    width: 288px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.experience-header {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.experience-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.experience-image {
+    border-radius: 32px;
+    min-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+
+.experience-text-block {
+    width: 768px;
+}
+
+.experience-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.experience-list li:last-of-type {
+  min-width: 100%;
+}
+
+.experience-item {
+    width: calc((100% - 32px) / 2);
+}
+
+}
+
+@media screen and (min-width: 1440px) 
+{
+ .experience-list {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    height: 948px;
+}
+
+.experience-item {
+    width: auto;
+}
+}
