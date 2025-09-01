@@ -60,8 +60,23 @@
   font-size: 16px;
   line-height: 1.5;
 }
+.star-icon {
+  fill: #0b0803;
+}
+.star-icon-empty {
+  fill: transparent;
+  stroke: #0b0803;
+}
+.header-container {
+  width: 288px;
+}
 @media screen and (min-width: 768px) {
-  .opinion {
-    margin-bottom: auto;
+  .header-container {
+    width: 498px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header-container {
+    width: 416px;
   }
 }
