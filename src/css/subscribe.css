@@ -23,7 +23,7 @@ gap: 32px;
     font-family: 'Aboreto', sans-serif;
 font-weight: 400;
 font-size: 36px;
-line-height: 1.12;
+line-height: 1.20;
 letter-spacing: -0.01em;
 color: #0b0803;
 text-align: left;
@@ -35,7 +35,7 @@ width: 100%;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 font-size: 18px;
-line-height: 1.15;
+line-height: 1.50;
 color: #0b0803;
 text-align: left;
 max-width: 288px;
@@ -79,7 +79,7 @@ background-color: rgba(255, 255, 255, 0);
     font-family: 'Quicksand', sans-serif;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.15;
+line-height: 1.50;
 color: #0b0803;
 }
 
@@ -93,7 +93,7 @@ color: #0b0803;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
 font-size: 12px;
-line-height: 1.15;
+line-height: 1.50;
 }
 
 
@@ -114,9 +114,9 @@ line-height: 1.15;
 
 .subscribe-container-form-button {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 12px;
     max-width: 288px;
     width: 100%;
     margin-top: 24px;
@@ -124,11 +124,16 @@ line-height: 1.15;
 }
 
 .subscribe-form-button {
-
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 100px;
-padding: 10px 24px;
-width: 288px;
-height: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 288px;
+    height: 44px;
 
 box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
 background-color: #6f4e37;
@@ -136,12 +141,15 @@ background-color: #6f4e37;
 font-family: 'Quicksand', sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.15;
+line-height: 1.50;
 color:  #fff;
+
+gap: 12px;
 }
 
 
 .subscribe-form-button-svg {
+    fill: #fff;
 }
 
 
