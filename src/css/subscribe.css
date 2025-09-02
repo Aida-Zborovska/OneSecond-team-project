@@ -196,3 +196,52 @@ line-height: 1.50;
 }
 
 }
+
+@media screen and (min-width: 1440px) {
+  .subscribe-container-wrap {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 1312px;
+    min-width: 1312px;
+    gap: 32px;
+  }
+
+.subscribe-container-text {
+  min-width: 640px;
+  width: 640px;
+}
+.subscribe-title {
+  min-width: 640px;
+  width: 640px;
+  max-height: 116px;
+  font-size: 48px;
+}
+.subscribe-description {
+  min-width: 640px;
+  width: 640px;
+  max-height: 27px;
+}
+.subscribe-form {
+}
+.subscribe-form-input {
+}
+.visualy-hidden {
+}
+.subscribe-form-label {
+}
+.subscribe-form-button {
+}
+.subscribe-form-button-svg {
+}
+.subscribe-form-description {
+}
+.subscribe-form-link {
+}
+.subscribe-image {
+  min-width: 640px;
+  width: 640px;
+  max-height: 400px;
+}
+}
