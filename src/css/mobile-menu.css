@@ -6,9 +6,9 @@
   height: 100%;
   background-color: #e0cbb4;
 
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 }
 .mobile-menu.is-open {
   opacity: 1;
@@ -47,4 +47,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
