@@ -5,10 +5,17 @@
   line-height: 1.2;
   letter-spacing: -0.01em;
   margin-bottom: 24px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .testimonials-header-two {
+    width: 498px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .testimonials-header-two {
     font-size: 48px;
+    width: 416px;
   }
 }
 .testimonials-list {
@@ -66,17 +73,4 @@
 .star-icon-empty {
   fill: transparent;
   stroke: #0b0803;
-}
-.header-container {
-  width: 288px;
-}
-@media screen and (min-width: 768px) {
-  .header-container {
-    width: 498px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .header-container {
-    width: 416px;
-  }
 }
