@@ -1,78 +1,74 @@
-<section class="subscribe-section">
-  <div class="subscribe-container">
-    <div class="subscribe-container-title">
+<section>
+  <div class="container subscribe-container-wrap">
+    <div class="subscribe-container-text">
       <h1 class="subscribe-title">Join Our Coffee Community</h1>
       <p class="subscribe-description">
         Experience the joy of coffee delivered right to your door. Sign up
         today!
       </p>
-    </div>
-    <div class="subscribe-container-form">
+
       <form class="subscribe-form" name="issue_report_form" autocomplete="off">
-        <div class="subscribe-container-form-input">
-          <input
-            class="subscribe-form-input"
-            type="text"
-            name="username"
-            id="your-email"
-            required
-            placeholder="Your Email Here"
-          />
-          <label class="subscribe-form-label" for="your-email"
-            >Error Text</label
-          >
-        </div>
+        <input
+          class="subscribe-form-input"
+          type="email"
+          name="useremail"
+          up
+          today!
+          Your
+          Email
+          Here
+          id="your-email"
+          required
+          placeholder="Your Email Here"
+        />
+        <label class="visualy-hidden subscribe-form-label" for="your-email"
+          >Error Text</label
+        >
 
-        <div class="subscribe-container-form-button">
-          <button class="subscribe-form-button" type="submit">
-            Subscribe
-            <svg class="subscribe-form-button-svg" width="24" height="24">
-              <use href="./img/icons.svg#icon-chevrons-right"></use>
-            </svg>
-          </button>
-        </div>
+        <button class="subscribe-form-button" type="submit">
+          Subscribe
+          <svg class="subscribe-form-button-svg" width="24" height="24">
+            <use href="./img/icons.svg#icon-chevrons-right"></use>
+          </svg>
+        </button>
 
-        <div class="subscribe-container-form-description">
-          <p class="subscribe-form-description">
-            By clicking Get Started, you agree to our
-            <a class="subscribe-form-link" href="#">Terms and Conditions</a>.
-          </p>
-        </div>
+        <p class="subscribe-form-description">
+          By clicking Get Started, you agree to our
+          <a class="subscribe-form-link" href="#">Terms and Conditions</a>.
+        </p>
       </form>
-
-      <div class="subscribe-container-image">
-        <picture>
-          <source
-            media="(min-width: 1158px)"
-            srcset="
-              ../img/subscribe/subscribe-desc-min.jpg    1x,
-              ../img/subscribe/subscribe-desc@2x-min.jpg 2x
-            "
-          />
-
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              ../img/subscribe/subscribe-tab-min.jpg    1x,
-              ../img/subscribe/subscribe-tab@2x-min.jpg 2x
-            "
-          />
-
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ../img/subscribe/subscribe-mob-min.jpg    1x,
-              ../img/subscribe/subscribe-mob@2x-min.jpg 2x
-            "
-          />
-
-          <img
-            class="subscribe-image"
-            src="/img/subscribe/subscribe-mob-min.jpg"
-            alt="subscribe image"
-          />
-        </picture>
-      </div>
     </div>
+
+    <picture class="subscribe-image">
+      <source
+        media="(min-width: 1158px)"
+        srcset="
+          ../img/subscribe/subscribe-desc-min.jpg    1x,
+          ../img/subscribe/subscribe-desc@2x-min.jpg 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../img/subscribe/subscribe-tab-min.jpg    1x,
+          ../img/subscribe/subscribe-tab@2x-min.jpg 2x
+        "
+      />
+
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ../img/subscribe/subscribe-mob-min.jpg    1x,
+          ../img/subscribe/subscribe-mob@2x-min.jpg 2x
+        "
+      />
+
+      <img
+        class="subscribe-image"
+        src="/img/subscribe/subscribe-mob-min.jpg"
+        alt="subscribe image"
+      />
+    </picture>
   </div>
 </section>
