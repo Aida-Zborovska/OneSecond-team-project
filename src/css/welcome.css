@@ -83,20 +83,13 @@
 
 /* tablet */
 @media screen and (min-width: 768px) {
-  .welcome-section {
-    max-width: 768px;
-  }
-
   .welcome-container {
     flex-direction: row;
   }
 
-  .welcome-title-block {
-    max-width: 50%;
-  }
-
+  .welcome-title-block,
   .welcome-text-block {
-    max-width: 50%;
+    width: calc((100% - 32px) / 2);
   }
 
   .welcome-link {
@@ -106,10 +99,6 @@
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-  .welcome-section {
-    max-width: 1440px;
-  }
-
   .welcome-container {
     margin-bottom: 80px;
   }
