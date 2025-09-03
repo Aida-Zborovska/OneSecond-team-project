@@ -85,11 +85,12 @@
   transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.get-directions:hover {
+.get-directions:hover,
+.get-directions:focus {
   opacity: 0.5;
 }
 
-.get-directions:focus {
+.get-directions:active {
   opacity: 0.7;
 }
 
