@@ -45,7 +45,9 @@
 }
 @media screen and (min-width: 1440px) {
   .qual-conttxt {
+    margin: 0 auto;
     max-width: 768px;
+    margin-bottom: 32px;
   }
 }
 .qual-list {
@@ -66,7 +68,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* gap: 32px; */
 }
 @media screen and (min-width: 768px) {
   .qual-item {
