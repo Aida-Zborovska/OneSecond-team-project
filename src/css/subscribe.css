@@ -49,6 +49,13 @@ margin-bottom: 32px;
   position: relative;
 }
 
+.subscribe-form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 288px;
+  width: 100%;
+}
 
 .subscribe-form-input {
     border: 1px solid rgba(11, 8, 3, 0.15);
@@ -66,11 +73,54 @@ line-height: 1.50;
 color: #0b0803;
 
 margin-bottom: 24px;
+outline: none;
+}
+
+.subscribe-form-input::placeholder {
+  color: #0b0803;
+}
+
+.subscribe-form-input:focus {
+  border-color: #7f1c1c;
+}
+
+.subscribe-form-input:not(:placeholder-shown):invalid {
+  border-color: #7f1c1c;
+}
+
+.subscribe-form-input:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.text-valid,
+.text-invalid {
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 0px;
+  margin-top: -22px;
+  line-height: 1.50;
+  display: none;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: #7f1c1c;
+}
+
+.subscribe-form-input:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+.subscribe-form-input:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
 }
 
 .subscribe-form-label {
     display: none;
-    color: #7f1c1c;;
+    color: #7f1c1c;
     position: absolute;
     top: 100%;
     left: 0;
@@ -124,6 +174,9 @@ margin-bottom: 16px;
 opacity: 0.5;
 }
 
+.subscribe-form-button:is(:hover, :focus) {
+   border-color: #6f4e37;
+}
 
 .subscribe-form-description {
   min-width: 288px;
@@ -164,6 +217,14 @@ line-height: 1.50;
   align-items: flex-start;
   justify-content: flex-start;
   min-width: 522px;
+}
+
+.subscribe-form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 340px;
+  width: 340px;
 }
 
 .subscribe-form-input {
