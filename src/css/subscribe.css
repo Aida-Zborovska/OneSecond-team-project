@@ -85,7 +85,7 @@ outline: none;
 }
 
 .subscribe-form-input:not(:placeholder-shown):invalid {
-  border-color: rgba(11, 8, 3, 0.15);
+  border-color: #7f1c1c;
 }
 
 .subscribe-form-input:not(:placeholder-shown):valid {
