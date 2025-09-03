@@ -1,0 +1,123 @@
+.qual-target {
+  font-family: 'Quicksand';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.qual-title {
+  font-family: 'Aboreto';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  display: block;
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .qual-title {
+    max-width: 442px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .qual-title {
+    font-size: 48px;
+    max-width: 768px;
+  }
+}
+.qual-txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+  max-width: 100%;
+}
+.qual-conttxt {
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 1440px) {
+  .qual-conttxt {
+    margin: 0 auto;
+    max-width: 768px;
+    margin-bottom: 32px;
+  }
+}
+.qual-list {
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .qual-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 64px;
+  }
+}
+.qual-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .qual-item {
+    flex: 1 1 calc(50% - 32px);
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .qual-item {
+    flex: 1 1 calc(100% / 3 - 48px);
+    box-sizing: border-box;
+  }
+}
+.qual-picture {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.qual-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+.qual-list-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.qual-list {
+  margin: 0 auto;
+}
+
+.qual-card-txt {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .qual-card-txt {
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+  .qual-card-txt.short {
+    max-width: 440px;
+  }
+}
+.qual-txt.card {
+  font-size: 16px;
+}
