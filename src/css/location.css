@@ -1,0 +1,157 @@
+.location-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-up-loc {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+  margin-bottom: 16px;
+}
+
+.title-loc {
+  font-family: 'Aboreto', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+  margin-bottom: 24px;
+}
+
+.text-under-loc {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0b0803;
+  margin-bottom: 40px;
+}
+
+.location-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.icon-loc {
+  margin-bottom: 16px;
+}
+
+.loc-label {
+  font-family: 'Aboreto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+  margin-bottom: 8px;
+}
+
+.address-loc {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0b0803;
+}
+
+.address-office {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+  font-style: normal;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.get-directions {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+  display: inline-flex;
+  gap: 8px;
+
+  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.get-directions:hover,
+.get-directions:focus {
+  opacity: 0.5;
+}
+
+.get-directions:active {
+  opacity: 0.7;
+}
+
+.location-iframe {
+  width: 100%;
+  min-width: 200px;
+  height: 307px;
+  border-radius: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .list-address-loc {
+    width: 100%;
+    min-width: 200px;
+    height: auto;
+  }
+
+  .location-iframe {
+    width: 704px;
+    height: 377px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .location-box {
+    width: 100%;
+    max-width: 419px;
+    min-height: 633px;
+  }
+
+  .title-loc {
+    font-size: 48px;
+  }
+
+  .location-list {
+    flex-direction: column;
+  }
+
+  .location-iframe {
+    width: 869px;
+    height: 697px;
+  }
+
+  .list-address-loc {
+    width: 419px;
+    height: 108px;
+  }
+
+  .list-address-loc:last-child {
+    width: 419px;
+    min-height: 148px;
+  }
+}
