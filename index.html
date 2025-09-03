@@ -127,12 +127,28 @@
       </div>
     </div>
 
-    <img
-      class="welcome-image"
-      srcset="/OneSecond-team-project/assets/welcome-desk-min-9wZ1wpiR.jpg 1x, /OneSecond-team-project/assets/welcome-desk@2x-min-Bz5_lnxW.jpg 2x"
-      src="/img/welcome/welcome-desk-min.jpg "
-      alt="Barista making coffee"
-    />
+    <picture class="welcome-image">
+      <source
+        media="(min-width: 1440px)"
+        srcset="/OneSecond-team-project/assets/welcome-desk-min-CB3qDPwH.jpg 1x, /OneSecond-team-project/assets/welcome-desk@2x-min-C4cpttYO.jpg 2x"
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="/OneSecond-team-project/assets/welcome-tab-min-T2s_Eo63.jpg 1x, /OneSecond-team-project/assets/welcome-tab@2x-min-B7zabbwF.jpg 2x"
+      />
+
+      <source
+        media="(max-width: 767px)"
+        srcset="/OneSecond-team-project/assets/welcome@2x-min-CqKE7dPL.jpg 1x, /OneSecond-team-project/assets/welcome@2x-min-CqKE7dPL.jpg 2x"
+      />
+
+      <img
+        class="welcome-image"
+        src="/img/welcome/welcome-desk-min.jpg "
+        alt="Barista making coffee"
+      />
+    </picture>
   </div>
 </section>
 
