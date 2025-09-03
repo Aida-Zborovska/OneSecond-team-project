@@ -81,11 +81,11 @@ outline: none;
 }
 
 .subscribe-form-input:focus {
-  border-color: #7f1c1c;
+  border-color: rgba(11, 8, 3, 0.15);
 }
 
 .subscribe-form-input:not(:placeholder-shown):invalid {
-  border-color: #7f1c1c;
+  border-color: rgba(11, 8, 3, 0.15);
 }
 
 .subscribe-form-input:not(:placeholder-shown):valid {
@@ -118,18 +118,6 @@ outline: none;
   display: block;
 }
 
-.subscribe-form-label {
-    display: none;
-    color: #7f1c1c;
-    position: absolute;
-    top: 100%;
-    left: 0;
-
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-font-size: 12px;
-line-height: 1.50;
-}
 
 
 
