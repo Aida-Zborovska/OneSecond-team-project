@@ -36,6 +36,14 @@
   height: 48px;
   background-color: transparent;
   border: none;
+  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-close-btn:hover,
+.mobile-close-btn:focus {
+  opacity: 50%;
+}
+.mobile-close-btn:active {
+  opacity: 70%;
 }
 .mobile-navigation {
   height: 100vh;
