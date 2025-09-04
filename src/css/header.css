@@ -1,3 +1,10 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #e0cbb4;
+}
+
 .header-wrap {
   display: flex;
   justify-content: space-between;
@@ -46,6 +53,11 @@
 }
 
 @media (min-width: 768px) {
+
+  header {
+    position: static;
+  }
+
   .header-nav {
     padding: 0 32px;
   }
