@@ -52,14 +52,15 @@
 }
 .qual-list {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .qual-list {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
-    justify-content: center;
-    padding-bottom: 64px;
   }
 }
 .qual-item {
@@ -78,7 +79,6 @@
 @media screen and (min-width: 1440px) {
   .qual-item {
     flex: 1 1 calc(100% / 3 - 48px);
-    box-sizing: border-box;
   }
 }
 .qual-picture {
@@ -101,13 +101,8 @@
   text-align: center;
   margin-bottom: 8px;
 }
-.qual-list {
-  margin: 0 auto;
-}
-
 .qual-card-txt {
   margin-top: 32px;
-  margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
   .qual-card-txt {
