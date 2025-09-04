@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.location-box {
+  margin-bottom: 32px;
+}
+
 .text-up-loc {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
@@ -35,7 +39,6 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 32px;
 }
 
 .icon-loc {
@@ -50,6 +53,7 @@
   letter-spacing: -0.01em;
   color: #0b0803;
   margin-bottom: 8px;
+  font-style: normal;
 }
 
 .address-loc {
@@ -60,6 +64,17 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0b0803;
+
+  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-loc:hover,
+.address-loc:focus {
+  opacity: 0.5;
+}
+
+.address-loc:active {
+  opacity: 0.7;
 }
 
 .address-office {
@@ -130,6 +145,7 @@
     width: 100%;
     max-width: 419px;
     min-height: 633px;
+    margin: 0;
   }
 
   .title-loc {
@@ -147,11 +163,9 @@
 
   .list-address-loc {
     width: 419px;
-    height: 108px;
   }
 
   .list-address-loc:last-child {
     width: 419px;
-    min-height: 148px;
   }
 }
