@@ -38,13 +38,11 @@
 }
 @media screen and (min-width: 768px) {
   .testimonials-list-item {
-    height: 253px;
     width: calc((100% - 24px) / 2);
   }
 }
 @media screen and (min-width: 1440px) {
   .testimonials-list-item {
-    height: 303px;
     width: calc((100% - 24px * 3) / 4);
   }
 }
