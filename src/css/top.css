@@ -1,0 +1,26 @@
+#top {
+  position: fixed;
+  bottom: 30px;
+  right: 1%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  transform: rotate(270deg);
+  display: none;
+}
+#top:hover {
+  background-color: rgba(111, 78, 55, 0.5);
+}
+
+.on-top {
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+  #top {
+    display: none !important;
+  }
+}
