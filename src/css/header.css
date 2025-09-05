@@ -5,7 +5,6 @@ header {
   background-color: #e0cbb4;
   box-shadow: 0px 2px 1px rgba(111, 78, 55, 0.08),
     0px 1px 1px rgba(111, 78, 55, 0.16), 0px 1px 6px rgba(111, 78, 55, 0.08);
-
 }
 
 .header-wrap {
@@ -56,9 +55,9 @@ header {
 }
 
 @media (min-width: 768px) {
-
   header {
     position: static;
+    box-shadow: none;
   }
 
   .header-nav {

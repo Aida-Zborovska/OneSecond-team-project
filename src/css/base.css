@@ -20,3 +20,13 @@ section {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+section[id] {
+  scroll-margin-top: 72px;
+}
+
+@media only screen and (min-width: 768px) {
+  section[id] {
+    scroll-margin-top: 0;
+  }
+}
